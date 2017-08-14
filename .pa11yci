@@ -12,7 +12,14 @@
     },
     {
       "url": "https://bitsofco.de/subscribe",
-      "screenCapture": "screenshots/subscribe.png"
+      "screenCapture": "screenshots/subscribe.png",
+      "actions": [
+        "set field #mce-EMAIL to pa11y@testing.com",
+        "set field #mce-FNAME to Tester",
+        "click element #mc-embedded-subscribe",
+        "wait for url to not be https://bitsofco.de/subscribe"
+      ],
+      "timeout": 60000
     },
     {
       "url": "https://bitsofco.de/collapsible-margins",
