@@ -1,0 +1,23 @@
+{
+  "defaults": {
+    "hideElements": "#carbonads",
+    "ignore": [ "notice", "warning" ],
+    "timeout": 20000,
+    "concurrency": 1
+  },
+  "urls": [
+    {
+      "url": "https://bitsofco.de",
+      "screenCapture": "screenshots/home.png"
+    },
+    {
+      "url": "https://bitsofco.de/subscribe",
+      "screenCapture": "screenshots/subscribe.png"
+    },
+    {
+      "url": "https://bitsofco.de/collapsible-margins",
+      "hideElements": "#carbonads, #disqus_thread",
+      "screenCapture": "screenshots/article.png"
+    }
+  ]
+}

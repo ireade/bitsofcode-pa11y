@@ -1,0 +1,8 @@
+{
+  "name": "bitsofcode-pa11y",
+  "version": "1.0.0",
+  "description": "Accessibility testing for bitsofcode",
+  "scripts": {
+    "start": "pa11y-ci"
+  }
+}
